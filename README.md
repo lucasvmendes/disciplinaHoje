@@ -13,3 +13,21 @@ As disciplinas são preenchidas na tela a partir de um GET.
 A disciplina é deletada do banco de dados a partir de um DELETE.
 
 <img align="center" src="/views/DisciplinaHojeImagem.png"/>
+
+## Tecnologias
+
+Utilizado no desenvolvimento do projeto:
+
+[NodeJS][nodejs]
+[MongoDB][mongodb]
+[ExpressJS][expressjs]
+[Mongoose][mongoose]
+[SuperTest][supertest]
+[EJS][ejs]
+
+[nodejs]: https://nodejs.org/
+[mongodb]: https://www.mongodb.com/
+[expressjs]: https://expressjs.com/pt-br/
+[mongoose]: https://mongoosejs.com/
+[supertest]: https://www.npmjs.com/package/supertest
+[ejs]: https://ejs.co/
