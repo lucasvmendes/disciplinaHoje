@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html style="font-family: Cambria; background-image: linear-gradient(to bottom, white, darkgrey);height: 100%;">
+  <head style="text-align: center">
+    <title>
+      Disciplina Hoje
+    </title>
+  </head>
+  <body style="margin-top: 0%; float: left; width: 100%; margin-left: auto;">
+    <header style="display: block;">
+    <nav style="width: 100%; float: left; height: 5EM; color: white; background-color: darkblue;">
+      <div>
+      <form action="/post" method="POST">
+        <ul style="float: left; margin-top: auto;">
+          <p style="font-size: 25px;">Disciplina Hoje</p>
+        </ul>
+        <ul style="position: relative; float: right; display: flex; justify-content: center; align-items: center; height: 3EM;">
+          <div style="width: 9EM;"><input type="text" placeholder="Matéria" name="materia" style="width: 9EM;"></div>
+          <div style="width: 9EM"><input type="text" placeholder="Horário" name="hora" style="width: 9EM"></div>
+          <div style="width: 8EM;"><button style="margin-top: 1%;border: none; cursor: pointer; border-radius: 30px; padding: 5px 25px;" type="submit">Incluir</button></div>
+        </ul>
+      </form>
+    </div>
+  </nav>
+</header>
+    <section style="text-align: center;">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div>
+      <h1 style="font-size: xx-large; margin-top: 100px;">
+        Disciplinas
+      </h1>
+      <table style="width: 75%; border: groove; display: inline-table;">
+        <thead style="background-color: gray;font-size: xx-large;width: 100%;background-image: linear-gradient(to bottom, lightgrey, transparent);">
+          <tr>
+            <td>Matéria</td>
+            <td>Dia da Semana</td>
+          </tr>
+        </thead>
+        <tbody action="/" method="GET">
+          <% data.forEach(function(details) { %>
+            <tr style="height: 2EM; font-size: x-large;">
+              <td style="width: 49%;"><%= details.materia %></td>
+              <td style="width: 49%;"><%= details.hora %></td>
+              <td style="width: 2%; margin-right: 40%;"><a class="fa fa-trash" style="color: black;" href='/del/<%= details._id %>'></a></td>
+            </tr>
+          <% }) %>
+        </tbody>
+      </table>
+    </div>
+    </section>
+    <footer></footer>
+  </body>
+</html>
