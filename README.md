@@ -12,4 +12,4 @@ As disciplinas são preenchidas na tela a partir de um GET.
 É possível excluir as disciplinas clicando na lata de lixo na tabela.
 A disciplina é deletada do banco de dados a partir de um DELETE.
 
-<img align="center" alt="App Screenshot" src="/view/DisciplinaHojeImagem.png"/>
+<img align="center" src="/view/DisciplinaHojeImagem.png"/>
