@@ -18,12 +18,12 @@ A disciplina é deletada do banco de dados a partir de um DELETE.
 
 Utilizado no desenvolvimento do projeto:
 
-[NodeJS][nodejs]
-[MongoDB][mongodb]
-[ExpressJS][expressjs]
-[Mongoose][mongoose]
-[SuperTest][supertest]
-[EJS][ejs]
+- [NodeJS][nodejs]
+- [MongoDB][mongodb]
+- [ExpressJS][expressjs]
+- [Mongoose][mongoose]
+- [SuperTest][supertest]
+- [EJS][ejs]
 
 [nodejs]: https://nodejs.org/
 [mongodb]: https://www.mongodb.com/
