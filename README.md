@@ -11,5 +11,5 @@ As disciplinas são preenchidas na tela a partir de um GET.
 #### Exclusão de Disciplinas
 É possível excluir as disciplinas clicando na lata de lixo na tabela.
 A disciplina é deletada do banco de dados a partir de um DELETE.
-
+![](/view/DisciplinaHojeImagem.png)
 <img align="center" src="/view/DisciplinaHojeImagem.png"/>
